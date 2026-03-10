@@ -22,12 +22,12 @@ This student grade calculator is a simple python program that allows users to en
 4. Ater all the scores are entered, The program calculates the average score.
 
 ## Example
-Enter number of subjects: 2
-Enter score: 80
-Enter score: 85
-Total score: 165
-Average score: 82.5
-Your grade is: Grade = B
+* Enter number of subjects: 2
+* Enter score: 80
+* Enter score: 85
+* Total score: 165
+* Average score: 82.5
+* Your grade is: Grade = B
 
 
 
