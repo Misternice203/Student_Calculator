@@ -14,3 +14,8 @@
 * Added a for loop to update the name and number of all student subjects
 * added user input to ask if they are done entering subject names
 * added final report card to let user see average, total, letter grade
+
+## Version 1.3
+* Added list to store subject names
+* Asks user to enter the names of subjects
+* quality of life features
