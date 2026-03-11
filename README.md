@@ -14,12 +14,16 @@ This student grade calculator is a simple python program that allows users to en
 ## Technologies used
 * Python
 * Command line interface (CLI)
+* VS Code
 
 ## How it works
 1. The program asks the user to enter the student scores.
 2. A loop processes each score.
-3. The program updates a variable called total_score.
-4. Ater all the scores are entered, The program calculates the average score.
+3. The program updates a variable called total_score
+4. Program asks user the name of subjects and stores them in a list
+5. Ater all the scores are entered, The program calculates the average score.
+6. After all calculations program gives user a report on all subjects
+
 
 ## Example
 * Enter number of subjects: 2
