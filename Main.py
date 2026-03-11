@@ -1,6 +1,10 @@
 print("Student Grade Calculator")
-print("=" * 20)
+print("=" * 25)
+total_score = 0
+grade = ""
+
 subject_count = int(input("Enter the number of subjects: "))
+average_score = total_score / subject_count
 subjects = [] # Store the subject names in a list.
 
 if subject_count <= 0:
@@ -12,22 +16,14 @@ else:
 print(f"You have {subject_count} subjects.")
 for i in range(subject_count):
     subjects.append(input(f"Enter the name of subject {i+1}: "))
-print(input("Ready to continue? (yes or no): "))
-if input().lower() != "yes":
-    print("Great lets get the scores for the subjects!")
-else:
-    print(input("Okay whats the name of the next subject?: "))
-
-
-total_score = 0
-
+    
+print("Now let's enter the scores for each subject.")
+        
 for i in range(subject_count):
-    score = int(input(f"Enter score for subject {i+1}: "))
+    score = float(input(f"Enter score for subject {i+1}: "))
     while score < 0 or score > 100:
         print("Invalid score. Please enter a value between 0 and 100.")
-        score = int(input(f"Enter score for subject {i+1}: "))
-
-    total_score += score
+    score = float(input(f"Enter score for subject {i+1}: "))
 
 average_score = total_score / subject_count
 
@@ -45,4 +41,6 @@ else:
 print("--- Student Report ---")
 print(f"Total Score: {total_score}")
 print(f"Average Score: {average_score:.2f}")
-print(f"Grade: {grade}")
+print(f"Grade:{grade}")
+print("Thank you for using the Student Grade Calculator!")
+print(input("Would you like to Restart the program? (y/n)"))
