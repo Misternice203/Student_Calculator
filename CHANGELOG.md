@@ -19,3 +19,8 @@
 * Added list to store subject names
 * Asks user to enter the names of subjects
 * quality of life features
+
+## Version 1.4
+* gave user the ability to restart program once report sends
+* used while loop to restart program
+* Updated ending to include goodbye message
