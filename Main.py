@@ -16,7 +16,6 @@ while True:
         subject_count = int(input("Enter the number of subjects: "))
     else:
         print("Great! now lets enter the name of the subjects!")
-        break
 
     print(f"You have {subject_count} subjects.")
     for i in range(subject_count):
