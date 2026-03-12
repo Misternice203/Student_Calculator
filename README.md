@@ -43,5 +43,9 @@ This student grade calculator is a simple python program that allows users to en
 * Average score: 82.5
 * Your grade is: Grade = B
 
-
+## What I learned
+* how to work with lists and dictionaries to store information
+* Controled the flow of the program using if, elif, and else statements
+* user input handling to insure correct information from user
+* Debugging errors, mostly when it came to the while true loop and restart functions
 
