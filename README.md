@@ -5,6 +5,7 @@ Simple student calculator to get average across all user subjects.
 * make sure to have Python 3.14 downloaded
 * download the raw file from Github labeled Main.py
 * open raw file from Python and run code through terminal
+* To view the code open file to VS code
 
 
 ## Overview
