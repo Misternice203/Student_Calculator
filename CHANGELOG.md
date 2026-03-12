@@ -24,3 +24,8 @@
 * gave user the ability to restart program once report sends
 * used while loop to restart program
 * Updated ending to include goodbye message
+
+## version 2.0
+* updated while true loop to restart program in case user wants to restart
+* program breaks once user exits
+* added .lower() to update user experience
