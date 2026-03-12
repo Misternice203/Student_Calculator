@@ -1,6 +1,12 @@
 ### Student_Calculator
 Simple student calculator to get average across all user subjects.
 
+## Code (How to use)
+* make sure to have Python 3.14 downloaded
+* download the raw file from Github labeled Main.py
+* open raw file from Python and run code through terminal
+
+
 ## Overview
 This student grade calculator is a simple python program that allows users to enter student scores and calculate the total and average score. This project uses loops, vaiables, input validation. and basic arithmatic operations in Python.
 
